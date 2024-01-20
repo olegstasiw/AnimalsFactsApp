@@ -8,18 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		C1C00E0A2B58547300396FD9 /* AnimalsFactsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E092B58547300396FD9 /* AnimalsFactsAppApp.swift */; };
-		C1C00E0C2B58547300396FD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E0B2B58547300396FD9 /* ContentView.swift */; };
 		C1C00E0E2B58547700396FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C00E0D2B58547700396FD9 /* Assets.xcassets */; };
 		C1C00E112B58547700396FD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C00E102B58547700396FD9 /* Preview Assets.xcassets */; };
 		C1C00E192B599D9600396FD9 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = C1C00E182B599D9600396FD9 /* ComposableArchitecture */; };
+		C1C00E1B2B59A12300396FD9 /* AnimalCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E1A2B59A12300396FD9 /* AnimalCategoriesView.swift */; };
+		C1C00E1D2B59A22F00396FD9 /* AnimalCategoriesFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E1C2B59A22F00396FD9 /* AnimalCategoriesFeature.swift */; };
+		C1C00E1F2B59A74000396FD9 /* NetworkManagerDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E1E2B59A74000396FD9 /* NetworkManagerDependency.swift */; };
+		C1C00E242B59C41D00396FD9 /* ErrorViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E232B59C41D00396FD9 /* ErrorViewModifier.swift */; };
+		C1C00E262B59C44B00396FD9 /* LoadingViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E252B59C44B00396FD9 /* LoadingViewModifier.swift */; };
+		C1C00E292B5AAE9300396FD9 /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E282B5AAE9300396FD9 /* Extension+Color.swift */; };
+		C1C00E2C2B5AAEC700396FD9 /* AnimalCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E2B2B5AAEC700396FD9 /* AnimalCategoryView.swift */; };
+		C1C00E2E2B5AB1A200396FD9 /* Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E2D2B5AB1A200396FD9 /* Extension+Image.swift */; };
+		C1C00E302B5AB22E00396FD9 /* ComingSoonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E2F2B5AB22E00396FD9 /* ComingSoonViewModifier.swift */; };
+		C1C00E332B5ABDDC00396FD9 /* AnimalCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E322B5ABDDC00396FD9 /* AnimalCategory.swift */; };
+		C1C00E352B5ABDF900396FD9 /* CategoryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E342B5ABDF900396FD9 /* CategoryContent.swift */; };
+		C1C00E372B5ABE1500396FD9 /* CategoryStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E362B5ABE1400396FD9 /* CategoryStatus.swift */; };
+		C1C00E392B5ACA2600396FD9 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E382B5ACA2600396FD9 /* Extension+View.swift */; };
+		C1C00E3E2B5C0DAF00396FD9 /* Extension+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E3D2B5C0DAE00396FD9 /* Extension+Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1C00E062B58547300396FD9 /* AnimalsFactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsFactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C00E092B58547300396FD9 /* AnimalsFactsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsFactsAppApp.swift; sourceTree = "<group>"; };
-		C1C00E0B2B58547300396FD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1C00E0D2B58547700396FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1C00E102B58547700396FD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1C00E1A2B59A12300396FD9 /* AnimalCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCategoriesView.swift; sourceTree = "<group>"; };
+		C1C00E1C2B59A22F00396FD9 /* AnimalCategoriesFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCategoriesFeature.swift; sourceTree = "<group>"; };
+		C1C00E1E2B59A74000396FD9 /* NetworkManagerDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerDependency.swift; sourceTree = "<group>"; };
+		C1C00E232B59C41D00396FD9 /* ErrorViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewModifier.swift; sourceTree = "<group>"; };
+		C1C00E252B59C44B00396FD9 /* LoadingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewModifier.swift; sourceTree = "<group>"; };
+		C1C00E282B5AAE9300396FD9 /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
+		C1C00E2B2B5AAEC700396FD9 /* AnimalCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCategoryView.swift; sourceTree = "<group>"; };
+		C1C00E2D2B5AB1A200396FD9 /* Extension+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Image.swift"; sourceTree = "<group>"; };
+		C1C00E2F2B5AB22E00396FD9 /* ComingSoonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonViewModifier.swift; sourceTree = "<group>"; };
+		C1C00E322B5ABDDC00396FD9 /* AnimalCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCategory.swift; sourceTree = "<group>"; };
+		C1C00E342B5ABDF900396FD9 /* CategoryContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryContent.swift; sourceTree = "<group>"; };
+		C1C00E362B5ABE1400396FD9 /* CategoryStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStatus.swift; sourceTree = "<group>"; };
+		C1C00E382B5ACA2600396FD9 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		C1C00E3D2B5C0DAE00396FD9 /* Extension+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Font.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +80,13 @@
 			isa = PBXGroup;
 			children = (
 				C1C00E092B58547300396FD9 /* AnimalsFactsAppApp.swift */,
-				C1C00E0B2B58547300396FD9 /* ContentView.swift */,
-				C1C00E0D2B58547700396FD9 /* Assets.xcassets */,
+				C1C00E3A2B5AE3A000396FD9 /* Dependencies */,
+				C1C00E3B2B5AE3D500396FD9 /* AnimalCategories */,
+				C1C00E312B5ABDBC00396FD9 /* Models */,
+				C1C00E2A2B5AAEB900396FD9 /* Views */,
+				C1C00E272B5AAE7300396FD9 /* Extensions */,
+				C1C00E202B59C3F600396FD9 /* ViewModifiers */,
+				C1C00E3C2B5AE3EC00396FD9 /* Support files */,
 				C1C00E0F2B58547700396FD9 /* Preview Content */,
 			);
 			path = AnimalsFactsApp;
@@ -67,6 +98,70 @@
 				C1C00E102B58547700396FD9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1C00E202B59C3F600396FD9 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				C1C00E232B59C41D00396FD9 /* ErrorViewModifier.swift */,
+				C1C00E252B59C44B00396FD9 /* LoadingViewModifier.swift */,
+				C1C00E2F2B5AB22E00396FD9 /* ComingSoonViewModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		C1C00E272B5AAE7300396FD9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1C00E282B5AAE9300396FD9 /* Extension+Color.swift */,
+				C1C00E2D2B5AB1A200396FD9 /* Extension+Image.swift */,
+				C1C00E382B5ACA2600396FD9 /* Extension+View.swift */,
+				C1C00E3D2B5C0DAE00396FD9 /* Extension+Font.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C1C00E2A2B5AAEB900396FD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1C00E2B2B5AAEC700396FD9 /* AnimalCategoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1C00E312B5ABDBC00396FD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1C00E322B5ABDDC00396FD9 /* AnimalCategory.swift */,
+				C1C00E342B5ABDF900396FD9 /* CategoryContent.swift */,
+				C1C00E362B5ABE1400396FD9 /* CategoryStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1C00E3A2B5AE3A000396FD9 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C1C00E1E2B59A74000396FD9 /* NetworkManagerDependency.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		C1C00E3B2B5AE3D500396FD9 /* AnimalCategories */ = {
+			isa = PBXGroup;
+			children = (
+				C1C00E1A2B59A12300396FD9 /* AnimalCategoriesView.swift */,
+				C1C00E1C2B59A22F00396FD9 /* AnimalCategoriesFeature.swift */,
+			);
+			path = AnimalCategories;
+			sourceTree = "<group>";
+		};
+		C1C00E3C2B5AE3EC00396FD9 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C00E0D2B58547700396FD9 /* Assets.xcassets */,
+			);
+			path = "Support files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +240,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C00E0C2B58547300396FD9 /* ContentView.swift in Sources */,
+				C1C00E3E2B5C0DAF00396FD9 /* Extension+Font.swift in Sources */,
+				C1C00E262B59C44B00396FD9 /* LoadingViewModifier.swift in Sources */,
+				C1C00E1B2B59A12300396FD9 /* AnimalCategoriesView.swift in Sources */,
+				C1C00E292B5AAE9300396FD9 /* Extension+Color.swift in Sources */,
+				C1C00E242B59C41D00396FD9 /* ErrorViewModifier.swift in Sources */,
+				C1C00E332B5ABDDC00396FD9 /* AnimalCategory.swift in Sources */,
+				C1C00E1F2B59A74000396FD9 /* NetworkManagerDependency.swift in Sources */,
+				C1C00E1D2B59A22F00396FD9 /* AnimalCategoriesFeature.swift in Sources */,
+				C1C00E372B5ABE1500396FD9 /* CategoryStatus.swift in Sources */,
+				C1C00E2E2B5AB1A200396FD9 /* Extension+Image.swift in Sources */,
+				C1C00E2C2B5AAEC700396FD9 /* AnimalCategoryView.swift in Sources */,
+				C1C00E392B5ACA2600396FD9 /* Extension+View.swift in Sources */,
+				C1C00E352B5ABDF900396FD9 /* CategoryContent.swift in Sources */,
 				C1C00E0A2B58547300396FD9 /* AnimalsFactsAppApp.swift in Sources */,
+				C1C00E302B5AB22E00396FD9 /* ComingSoonViewModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
