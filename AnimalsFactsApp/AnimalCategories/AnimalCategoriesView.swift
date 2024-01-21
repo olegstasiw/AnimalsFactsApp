@@ -26,8 +26,8 @@ struct AnimalCategoriesView: View {
                         ScrollView {
                             LazyVStack(spacing: 0) {
                                 ForEach(viewStore.categories) { category in
-                                    NavigationLink {
-                                        Text(category.title)
+                                    Button {
+                                        viewStore.send(.cardTapped(category.id))
                                     } label: {
                                         AnimalCategoryView(category: category, screenWidth: proxy.size.width)
                                     }
@@ -40,9 +40,25 @@ struct AnimalCategoriesView: View {
                 .navigationTitle(Constants.animalCategoriesViewTitle)
                 .loadingView(isLoading: viewStore.isLoading)
                 .errorView(errorMessage: viewStore.errorMessage)
+                .showAdModifier(viewStore.adIsShowed)
                 .task {
                     viewStore.send(.requestStart)
                 }
+                .navigationDestination(
+                    store: self.store.scope(
+                        state: \.$animalDetails,
+                        action: \.animalDetails
+                    ),
+                    destination: { store in
+                        AnimalDetailsView(store: store)
+                    }
+                )
+                .alert(
+                      store: self.store.scope(
+                        state: \.$alert,
+                        action: \.alert
+                      )
+                    )
             }
         }
     }

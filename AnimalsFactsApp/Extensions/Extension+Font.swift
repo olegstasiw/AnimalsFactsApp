@@ -15,4 +15,8 @@ extension Font {
     public static var descriptionFont: Font {
         return .system(size: 12)
     }
+    
+    public static var contentFont: Font {
+        return .system(size: 18)
+    }
 }
