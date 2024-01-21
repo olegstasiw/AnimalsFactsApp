@@ -12,12 +12,16 @@ struct ErrorViewModifier: ViewModifier {
     
     func body(content: Content) -> some View {
         if let error = errorMessage {
-            Text("Ooops, we have an error: \(error)")
-                .font(.title2)
-                .foregroundColor(.red)
-                .padding()
-                .background(Color.black.opacity(0.3))
-                .cornerRadius(10)
+            ZStack {
+                Color.backgroundBase
+                    .ignoresSafeArea()
+                Text("Ooops, we have an error: \(error)")
+                    .font(.title2)
+                    .foregroundColor(.red)
+                    .padding()
+                    .background(Color.black.opacity(0.3))
+                    .cornerRadius(10)
+            }
         } else {
             content
         }

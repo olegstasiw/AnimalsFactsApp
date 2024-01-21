@@ -12,8 +12,12 @@ struct LoadingViewModifier: ViewModifier {
     
     func body(content: Content) -> some View {
         if isLoading {
-            ProgressView()
-                .controlSize(.large)
+            ZStack {
+                Color.backgroundBase
+                    .ignoresSafeArea()
+                ProgressView()
+                    .controlSize(.large)
+            }
         } else {
             content
         }
