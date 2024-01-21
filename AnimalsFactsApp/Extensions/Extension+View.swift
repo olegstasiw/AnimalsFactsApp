@@ -19,4 +19,8 @@ extension View {
     func comingSoonModifier(value: Bool) -> some View {
         self.modifier(ComingSoonViewModifier(value: value))
     }
+    
+    func showAdModifier(_ value: Bool) -> some View {
+        self.modifier(AdViewModifier(showAd: value))
+    }
 }

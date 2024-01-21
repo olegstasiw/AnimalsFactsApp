@@ -25,6 +25,14 @@
 		C1C00E372B5ABE1500396FD9 /* CategoryStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E362B5ABE1400396FD9 /* CategoryStatus.swift */; };
 		C1C00E392B5ACA2600396FD9 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E382B5ACA2600396FD9 /* Extension+View.swift */; };
 		C1C00E3E2B5C0DAF00396FD9 /* Extension+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E3D2B5C0DAE00396FD9 /* Extension+Font.swift */; };
+		C1C00E412B5C10A300396FD9 /* AnimalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E402B5C10A300396FD9 /* AnimalDetailsView.swift */; };
+		C1C00E432B5C112900396FD9 /* AnimalDetailsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E422B5C112900396FD9 /* AnimalDetailsFeature.swift */; };
+		C1C00E452B5D17DE00396FD9 /* AdViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E442B5D17DE00396FD9 /* AdViewModifier.swift */; };
+		C1C00E472B5DB36600396FD9 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E462B5DB36600396FD9 /* ShareView.swift */; };
+		C1C00E492B5DB39100396FD9 /* ControlsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E482B5DB39100396FD9 /* ControlsButtonView.swift */; };
+		C1C00E4B2B5DB40F00396FD9 /* AnimalsFactsCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E4A2B5DB40F00396FD9 /* AnimalsFactsCarouselView.swift */; };
+		C1C00E4D2B5DB4F200396FD9 /* AnimalFactCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E4C2B5DB4F200396FD9 /* AnimalFactCardView.swift */; };
+		C1C00E4F2B5DB73900396FD9 /* Extension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C00E4E2B5DB73900396FD9 /* Extension+Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +54,14 @@
 		C1C00E362B5ABE1400396FD9 /* CategoryStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStatus.swift; sourceTree = "<group>"; };
 		C1C00E382B5ACA2600396FD9 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
 		C1C00E3D2B5C0DAE00396FD9 /* Extension+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Font.swift"; sourceTree = "<group>"; };
+		C1C00E402B5C10A300396FD9 /* AnimalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsView.swift; sourceTree = "<group>"; };
+		C1C00E422B5C112900396FD9 /* AnimalDetailsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsFeature.swift; sourceTree = "<group>"; };
+		C1C00E442B5D17DE00396FD9 /* AdViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewModifier.swift; sourceTree = "<group>"; };
+		C1C00E462B5DB36600396FD9 /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		C1C00E482B5DB39100396FD9 /* ControlsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsButtonView.swift; sourceTree = "<group>"; };
+		C1C00E4A2B5DB40F00396FD9 /* AnimalsFactsCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsFactsCarouselView.swift; sourceTree = "<group>"; };
+		C1C00E4C2B5DB4F200396FD9 /* AnimalFactCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFactCardView.swift; sourceTree = "<group>"; };
+		C1C00E4E2B5DB73900396FD9 /* Extension+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Array.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,7 @@
 				C1C00E092B58547300396FD9 /* AnimalsFactsAppApp.swift */,
 				C1C00E3A2B5AE3A000396FD9 /* Dependencies */,
 				C1C00E3B2B5AE3D500396FD9 /* AnimalCategories */,
+				C1C00E3F2B5C108400396FD9 /* AnimalDetails */,
 				C1C00E312B5ABDBC00396FD9 /* Models */,
 				C1C00E2A2B5AAEB900396FD9 /* Views */,
 				C1C00E272B5AAE7300396FD9 /* Extensions */,
@@ -106,6 +123,7 @@
 				C1C00E232B59C41D00396FD9 /* ErrorViewModifier.swift */,
 				C1C00E252B59C44B00396FD9 /* LoadingViewModifier.swift */,
 				C1C00E2F2B5AB22E00396FD9 /* ComingSoonViewModifier.swift */,
+				C1C00E442B5D17DE00396FD9 /* AdViewModifier.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -117,6 +135,7 @@
 				C1C00E2D2B5AB1A200396FD9 /* Extension+Image.swift */,
 				C1C00E382B5ACA2600396FD9 /* Extension+View.swift */,
 				C1C00E3D2B5C0DAE00396FD9 /* Extension+Font.swift */,
+				C1C00E4E2B5DB73900396FD9 /* Extension+Array.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -125,6 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				C1C00E2B2B5AAEC700396FD9 /* AnimalCategoryView.swift */,
+				C1C00E462B5DB36600396FD9 /* ShareView.swift */,
+				C1C00E482B5DB39100396FD9 /* ControlsButtonView.swift */,
+				C1C00E4A2B5DB40F00396FD9 /* AnimalsFactsCarouselView.swift */,
+				C1C00E4C2B5DB4F200396FD9 /* AnimalFactCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +185,15 @@
 				C1C00E0D2B58547700396FD9 /* Assets.xcassets */,
 			);
 			path = "Support files";
+			sourceTree = "<group>";
+		};
+		C1C00E3F2B5C108400396FD9 /* AnimalDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C1C00E402B5C10A300396FD9 /* AnimalDetailsView.swift */,
+				C1C00E422B5C112900396FD9 /* AnimalDetailsFeature.swift */,
+			);
+			path = AnimalDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,18 +274,26 @@
 			files = (
 				C1C00E3E2B5C0DAF00396FD9 /* Extension+Font.swift in Sources */,
 				C1C00E262B59C44B00396FD9 /* LoadingViewModifier.swift in Sources */,
+				C1C00E4D2B5DB4F200396FD9 /* AnimalFactCardView.swift in Sources */,
 				C1C00E1B2B59A12300396FD9 /* AnimalCategoriesView.swift in Sources */,
 				C1C00E292B5AAE9300396FD9 /* Extension+Color.swift in Sources */,
+				C1C00E4B2B5DB40F00396FD9 /* AnimalsFactsCarouselView.swift in Sources */,
 				C1C00E242B59C41D00396FD9 /* ErrorViewModifier.swift in Sources */,
+				C1C00E412B5C10A300396FD9 /* AnimalDetailsView.swift in Sources */,
 				C1C00E332B5ABDDC00396FD9 /* AnimalCategory.swift in Sources */,
+				C1C00E492B5DB39100396FD9 /* ControlsButtonView.swift in Sources */,
 				C1C00E1F2B59A74000396FD9 /* NetworkManagerDependency.swift in Sources */,
+				C1C00E4F2B5DB73900396FD9 /* Extension+Array.swift in Sources */,
 				C1C00E1D2B59A22F00396FD9 /* AnimalCategoriesFeature.swift in Sources */,
 				C1C00E372B5ABE1500396FD9 /* CategoryStatus.swift in Sources */,
+				C1C00E452B5D17DE00396FD9 /* AdViewModifier.swift in Sources */,
 				C1C00E2E2B5AB1A200396FD9 /* Extension+Image.swift in Sources */,
 				C1C00E2C2B5AAEC700396FD9 /* AnimalCategoryView.swift in Sources */,
+				C1C00E432B5C112900396FD9 /* AnimalDetailsFeature.swift in Sources */,
 				C1C00E392B5ACA2600396FD9 /* Extension+View.swift in Sources */,
 				C1C00E352B5ABDF900396FD9 /* CategoryContent.swift in Sources */,
 				C1C00E0A2B58547300396FD9 /* AnimalsFactsAppApp.swift in Sources */,
+				C1C00E472B5DB36600396FD9 /* ShareView.swift in Sources */,
 				C1C00E302B5AB22E00396FD9 /* ComingSoonViewModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -370,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -394,8 +434,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,8 +466,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
